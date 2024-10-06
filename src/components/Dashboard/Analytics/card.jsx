@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import CardIcon from "../../../Icons/cardicon";
 import { cardData } from "./cardData";
 import "./card.css";
 import { Doughnut, Bar } from "react-chartjs-2";
@@ -162,11 +161,6 @@ const Card = () => {
       <div className="card-head d-md-flex d-block justify-content-between gap-3">
         {datas.map((i) => {
           const {
-            cardheader,
-            cardboldnumber,
-            cardpercentage,
-            cardnumber,
-            image,
             color,
           } = i;
           return (
