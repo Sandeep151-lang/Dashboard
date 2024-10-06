@@ -1,0 +1,91 @@
+.training-content {
+  padding-left: 30px;
+  list-style: circle;
+  height: fit-content;
+  color: #2196f3;
+}
+
+li {
+  padding-bottom: 10px;
+  width: 100%;
+  height: fit-content;
+  font-family: "Poppins";
+}
+
+.course {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 700;
+  /* height: 25.81px; */
+  overflow: hidden;
+  font-family: "Poppins";
+  font-weight: bold;
+  text-align: left;
+  /* line-height: 18.199999690056px; */
+  color: #333333;
+  padding: 0em;
+  margin: 0em;
+}
+
+.count {
+  color: gray;
+  font-size: 10px;
+  padding: 0em;
+  margin: 0.2em;
+}
+
+.dashboard {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.head {
+  width: 80%;
+  border-radius: 5px;
+}
+
+.dognutchart {
+  width: 21.7rem;
+  /* box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.3); */
+  box-shadow: 4px 4px 4px -2px rgba(0, 0, 0, 0.3);
+}
+
+
+.barChart {
+  width: 100%;
+  box-shadow: 4px 4px 4px -2px rgba(0, 0, 0, 0.3);
+}
+
+.dailyTransition {
+  width: 70%;
+  box-shadow: 4px 4px 4px -2px rgba(0, 0, 0, 0.3);
+}
+.quizPassing {
+  width: 30%;
+  box-shadow: 4px 4px 4px -2px rgba(0, 0, 0, 0.3);
+}
+.chapterWise{
+    width: 21.7rem;
+    box-shadow: 4px 4px 4px -2px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 768px) {
+  .dognutchart {
+    width: 80%;
+    height: 20rem;
+  }
+  .barChart {
+    width: 80%;
+  }
+  .dailyTransition {
+    margin: auto;
+    width: 100%;
+  }
+  .quizPassing {
+    width: 100%;
+    height: 20rem;
+  }
+  .chapterWise{
+    width: 80%;
+  }
+}

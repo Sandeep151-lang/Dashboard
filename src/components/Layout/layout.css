@@ -1,0 +1,51 @@
+.sidebar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  background-color: #e7efff;
+}
+
+.logo-section {
+  display: grid;
+  align-items: center;
+  margin: auto;
+  height: 100px;
+  box-shadow: 0px 4px 4px 1px rgba(180, 206, 255, 1);
+  background: rgba(255, 255, 255, 1);
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.menu {
+  position: fixed;
+  left: 0;
+  width: 14rem;
+  overflow-y: scroll;
+  height: auto;
+  max-height: 83vh;
+  background-color: white;
+}
+
+
+.links {
+  text-decoration: none;
+  color: black;
+  font-weight:500;
+  font-family:sans-serif;
+}
+.links:hover{
+  color: red;
+}
+
+   .main-content{
+    background: #e7efff;
+   }
+
+   @media  (max-width:768px) {
+    .menu {
+    
+      max-height: 100vh;
+    
+    }
+   }
